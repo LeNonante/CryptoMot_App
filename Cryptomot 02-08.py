@@ -1,7 +1,6 @@
 Version="2.08"
 
 import tkinter as tk
-from time import *
 from tkinter import *
 
 # Creéation des fonctions
