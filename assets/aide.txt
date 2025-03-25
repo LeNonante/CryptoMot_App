@@ -1,0 +1,30 @@
+Par MUSSET Aurelien
+
+Explications d'utilisation :
+ - Ne pas  tenir compte des slashs au début et à la fin des mots renvoyés, ils servent a délimiter le mot afin de ne pas oublier d'espaces avant ou apres le mot
+ - Ne pas confondre L minuscules et i majuscules et les zeros et les 'o'
+ - Utiliser seulement des lettres (majuscules et minuscules), des chiffres, des espaces et des points. (Aucun autre caractère)
+ - Si le mot codé/décodé est trop long, il peut ne pas être affiché entièrement dans la fenètre
+ - Le mot codé/decodé est dispo dans la console python afin de le voir en entier ou le copier
+ - Ce cryptage est indecryptable a la main. A raison d'un calcul par seconde (ce qui est deja rapide), un mot de 10 lettres prendrait 63^10 secondes afin de tester toutes les combinaisons possibles,
+   soit 3.12112241 * 10^10 annees (+ de 30 milliards)
+ - Crypter / Décrypter un document .txt (sans ligne vide) :
+     1) Mettre le doc dans le dossier 'documments'
+     2) Rentrer le nom du fichier (sans le . txt) dans la case 'mot a crypter/décrypter'
+     3) Rentrer la cle dans la case 'cle'
+     4) Cliquer sur le bouton 'DOCUMENT'
+     5) Un fichier 'NomDeVotreFichier_crypte.txt' ou 'NomDeVotreFichier_decrypte.txt' est créé dans le repertoire 'documents'
+
+Notes de mises a jour :
+ - 1.16 : Ajout des messages d'erreur pour les variables vides et les caractères speciaux
+ - 1.17 : Ajout du bouton 'DOCUMENT' ; Modification nom des variables
+ - 1.18 : Ajout des fonctions 'cryptage_boutton', 'decryptage_boutton', 'cryptage_doc' et 'decryptage_doc'
+ - 1.19 : Ajout fonctionnalitées cryptage/décryptage doc avec creation d'un nouveau doc
+ - 1.20 : Ajout message erreur caractère speciaux dans la clé
+ - 1.21 : Ajout des retour-a-la-ligne en caractère autorisé pour les documents
+ - 1.22 : Ajout messages 'Fichier (dé)crypté'
+ - 1.23 : Ajout des chiffres/points en caractères autorisés
+ - 1.24 : Changement de l'alphabet perso. ; Retour a la ligne retires (problèmes) ; Tout est fonctionnel (sans retour-a-la-ligne)
+ - 1.25 : Retours a la ligne rajoutés (chaque ligne est codée independamment, la cle reprend au debut a chaque ligne, avec 0 lignes vides)
+ - 2.xx : Changement complet de la structure du code (optimisation)
+ - 2.08 : Code optimisé fonctionnel
