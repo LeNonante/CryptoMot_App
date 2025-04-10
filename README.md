@@ -7,7 +7,7 @@
 - Chiffrement / déchiffrement de mots
 - Chiffrement / déchiffrement de documents .txt
 
----
+--- 
 
 ## 🛠️ Technologies utilisées
 - **Langage** : Python
